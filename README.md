@@ -1,1 +1,2 @@
 # Hello-World
+I'm just a dude that got into programming. Ive been working on this for about 3 weeks or so. I have complete almost three projects working with basic Html and CSS. I am totally addicted now. I have a full time job and I am a mucisian so, I only have time to code about 1-2 hours a day during the week and 3-4 hours on the weekends. I genuinely hope to land a job as a programmer within about a year or so. We shall see.
