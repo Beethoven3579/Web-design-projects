@@ -1,0 +1,132 @@
+<style>
+main {
+  background-image: url(https://images.fineartamerica.com/images-medium-large-5/cellos-6-black-and-white-rob-hans.jpg); 
+  border-radius: 9px;
+  background-repeat: no-repeat;
+  background-size: 1500px 3275px;
+} 
+
+h1 {
+  font-family: fantasy;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  -webkit-text-stroke: 1.5px black;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 9px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow:  10px 10px 15px 2px black;
+  max-width: 50%
+}
+ 
+h2 {
+  font-size: 16px;
+  font-family: Palatino, URW Palladio L, serif;
+  text-align: center;
+  margin: 10px auto 50px auto;
+  color: #fff; 
+  -webkit-text-stroke: 0.1px black;
+}
+h3 {
+  font-size: 30px;
+  font-family: Palatino, URW Palladio L, serif;
+  text-align: center;
+  margin: 10px auto 35px auto;
+  color: #fff;
+  -webkit-text-stroke: 0.3px black;
+}
+ul {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  font-family: Palatino, URW Palladio L, serif;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+  background-color: #BBBBBB;
+  box-shadow:  10px 10px 15px 2px black;
+}
+li {
+  margin: 16px 0;
+}
+h4 {
+  font-family: Palatino, URW Palladio L, serif;
+  text-align: center; 
+  color: #fff;
+ -webkit-text-stroke: 0.2px black;
+  margin: 10px auto 40px auto;
+    
+}
+em{ 
+font-size: 16px;
+ }
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  color: #FF0;  
+  background-color: black;
+}
+
+
+
+</style>
+
+<html>
+<main id="main">
+  <body id="body">
+    <h1 id="title"> Mstistlav Rostropovich
+    </h1>
+    <div id="img-div"><img id="image" class="displayed" alt="Rostropovich" src="https://www.abc.net.au/cm/rimage/10931410-16x9-large.jpg?v=2">
+      <h2 id="img-caption"> (Rostropovich in conert)</h>
+    </div>
+    <div id="img-div2"> <img id="image2" alt="Rostropovich & Benjamin Britten" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/RIAN_archive_25562_Mstislav_Rostropovich_and_Benjamin_Britten_after_a_concert.jpg/220px-RIAN_archive_25562_Mstislav_Rostropovich_and_Benjamin_Britten_after_a_concert.jpg">
+    </div>
+    <h2 id="img-caption"> (Rostropovich with Benjamin Britten)</h2>
+    <div id="img-div3"> <img id="image3" alt="Rostropovich in rehearsal" src="https://lh4.googleusercontent.com/proxy/5TZ10-HQZhBlI9U4-j6GK2K_gmcKSNcp29DJkbl_OgC4FMZFk7NN0VvnYX1ZNGIjNg2u0To2LVt0Ej-oL025J1kPhqfEqqiK44g5EELP-6S6bbF48ewBGdunBs9Mqamo6JKgXl1FKX2PB4CnVateOrLkMA=s0-d">
+    </div>
+    <h2 id="img-caption"> (Rostropovich in rehearsal)</h2>
+    <div>
+      </br>
+    </br>
+  </br>
+</br>
+ 
+      <h3>Timeline of his life and career</h3>
+      <ul id="tribute-info">
+        <li><strong>1943</strong> - At the age of 16, he entered the Moscow Conservatory, where he studied cello with his uncle Semyon Kozolupov, and piano, conducting and composition with Vissarion Shebalin. His teachers also included Dmitri Shostakovich.
+        </li>
+        <li> <strong>1945</strong> - He came to prominence as a cellist when he won the gold medal in the Soviet Union's first ever competition for young musicians. </li>
+        <li> <strong>1950</strong> - At the age of 23 he was awarded what was then considered the highest distinction in the Soviet Union, the Stalin Prize. At that time, Rostropovich was already well known in his country and while actively pursuing his solo career, he taught at the Leningrad (Saint-Petersburg) Conservatory and the Moscow Conservatory.
+        </li>
+        <li> <strong>1955</strong> - His international career started in the Conservatoire of Liège (with Kirill Kondrashin) and in 1964 in West Germany. </li>
+        <li> <strong>1963</strong> - he married Galina Vishnevskaya, a leading soprano at the Bolshoi Theatre.
+        </li>
+        <li> <strong>1968</strong> - Rostropovich played at The Proms on the night of 21 August. He played with the Soviet State Symphony Orchestra – it was the orchestra's debut performance at the Proms. The programme featured Czech composer Antonín Dvořák's Cello Concerto in B minor and took place on the same day that the Warsaw Pact invaded Czechoslovakia to end Alexander Dubček's Prague Spring. After the performance, which had been preceded by heckling and demonstrations, the orchestra and soloist were cheered by the Proms audience. Rostropovich stood and held aloft the conductor's score of the Dvořák as a gesture of solidarity for the composer's homeland and the city of Prague, a place he loved.
+        </li>
+        <li><strong>1970</strong> - Rostropovich sheltered Aleksandr Solzhenitsyn, who otherwise would have had nowhere to go, in his own home. His friendship with Solzhenitsyn and his support for dissidents led to official disgrace in the early 1970s. As a result, Rostropovich was restricted from foreign touring, as was his wife, soprano Galina Vishnevskaya, and his appearances performing in Moscow were curtailed, as increasingly were his appearances in such major cities as Leningrad and Kiev.
+        </li>
+        <li><strong>1974</strong> - Rostropovich left the Soviet Union in 1974 with his wife and children and settled in the United States.
+        </li>
+        <li><strong>1977</strong> - He was banned from touring his homeland with foreign orchestras and the Soviet leadership instructed musicians from the Soviet bloc not to take part in an international competition he had organised.
+        </li>
+        <li><strong>1978</strong> - Rostropovich was deprived of his Soviet citizenship because of his public opposition to the Soviet Union's restriction of cultural freedom. He would not return to the Soviet Union until 1990.
+        </li>
+        <li><strong>1989</strong> - On February 7, 1989, a cello concert was organized by the Armenian Relief Society and the Volunteers Technical Assistance (VTA) for the victims of the Spitak Earthquake. The cello concert par excellence with Mstislav Rostropovich interpreting his best cello repertoire, including Dvořák's Cello Concerto in B minor; Haydn's cello concerti in C and D; Prokofiev's Symphony-Concerto; the two cello concerti of Shostakovich, and others. The evening with Rostropovich raised awareness and helped hundreds of earthquake victims put food on their table. The concert was held at the Kennedy Center and over 2,300 were in attendance.
+        </li>
+      </ul>
+      <h4><em>"I think it's because of him, that I beleive in God."</em>
+        ~ Seiji Ozawa
+      </h4>
+      <footer><u>For more information, visit his <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Mstislav_Rostropovich">Wikipedia Page</a> here</u></footer>
+  </body>
+</main>
+</html>
