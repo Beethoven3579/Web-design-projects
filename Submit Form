@@ -1,0 +1,218 @@
+<html>
+<body>
+   <h1 id="title">String Orchestra Forming!</h1> 
+  <hr>
+   <p id="description">High Country Strings is setting out on a journey to start a youth string orchestra. We are accepting all levels of experience and welcome children and young adults from ages 6-23 years old. We will be partnering with sourounding colleges and univerities to bring on college level players as coaches and conductors. Furthermore, we hope to elect section leaders and instructors from our group of applicants in the future. Lastly, we will be working with local and regional instrument shops for rentals and purchases if you so choose. If this may be of interest tp you, please fill out the form below. </p>
+  
+  <form id="survey-form">
+    <div>
+     <label id="name-label"> Name </label>
+      </div>
+    <div>
+     <input required id="name" 
+            placeholder="First & Last">
+       </input>  
+        </div>
+      <label id="email-label"> Email</label>
+    <div>
+      <input required id="email" 
+             placeholder="Enter email here" type="email"> 
+       </input>   
+        </div>
+    <div>
+      <label id="number-label"> Age </label>
+       </div>  
+      <input required
+       type="number"
+       id="number"
+       min="6"
+       max="23"
+       class="form-control"
+       placeholder="6-23">
+    </input>
+  <h4><em>(Accepting ages 6-23)</em></h4>
+    <div id="form-group">
+      <h2> Select your experience level </h2> 
+       </div>  
+     <div>
+        <select id="dropdown">
+          <option id="neverplayed"> Never Played 
+            </option>    
+          <option id="begginer">Begginer
+            </option>
+          <option id="intermediate"> Intermediate 
+            </option>
+          <option id="advanced"> Advanced 
+            </option> 
+        </select>
+      </div>
+    </div>
+<h2>Choose the instrument you are most interested in playing.</h2>
+    <h4><em>(please choose only one)</em></h4>
+      <input type="radio" 
+             class="input-radio" 
+             value="violin" 
+             name="instrument"> Violin 
+          </input>
+      <input type="radio" 
+             class="input-radio" 
+             value="viola"
+             name="instrument"> Viola 
+          </input>
+      <input type="radio" 
+             class="input-radio" 
+             value="cello" 
+             name="instrument"> Cello 
+          </input>
+      <input type="radio" 
+             class="input-radio"  
+             value="doublebass" 
+             name="instrument"> DoubleBass 
+          </input>
+
+  <h2>Choose all the genre's of music you are interested in.</h2>
+
+<h4><em>(choose as many as you would like)</em></h4> 
+    <div class="container">
+      <input type="checkbox" 
+             class="input-checkbox"
+             value="Alternative"> Alternative 
+     </input>
+      <input type="checkbox" 
+             class="input-checkbox" 
+             value="Bluegrass"> Bluegrass 
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox" 
+             value="Blues"> Blues 
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox" 
+             value="Country"> Country 
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox" 
+             value="Electronic"> Electronic 
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox" 
+             value="Folk"> Folk 
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox"
+             value="Indie"> Indie 
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox" 
+             value="Hip-Hop"> Hip-Hop
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox"
+             value="Jazz"> Jazz 
+        </input>
+    <input type="checkbox" 
+           class="input-checkbox" 
+           value="Pop"> Pop 
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox" 
+             value="Punk"> Punk 
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox" 
+             value="Rap"> Rap 
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox" 
+             value="Reggae"> Reggae 
+        </input>
+    <input type="checkbox" 
+           class="input-checkbox" 
+           value="Rock"> Rock 
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox" 
+             value="r&b"> R&B 
+        </input>
+      <input type="checkbox" 
+             class="input-checkbox" 
+             value="tribal/roots"> Tribal/Roots 
+        </input>
+    </div>
+    <div>
+      <label class="feedback" 
+             id="text-heading"> Feedback and Comments            </label>
+          <br>
+          <br>
+      </div>
+    <div>
+      <textarea type="text" 
+                value="comments" 
+                id="text-area"> 
+        </textarea>
+          <br>
+          <br>
+        </div>
+      <button type="submit" 
+              id="submit"> Submit 
+        </button>
+    </form>
+</body>
+</html>
+
+<style> 
+body {
+  background-image: 
+  url(https://static3.depositphotos.com/1000988/118/i/950/depositphotos_1186854-stock-photo-musical-background-for-desing.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 1300px;
+  font-family: copperplate;
+  text-align: center; 
+}
+
+form { text-align: center;
+  
+}
+
+h1 { font-family: fantasy; 
+  
+}
+hr {
+  width: 400px;
+  margin: 20px auto 30px auto
+   
+}
+p { 
+  width: 400px;
+  margin: auto auto 60px auto;
+  }
+
+input {
+  margin: 5px;
+  width: 20%;
+}
+
+h2 {
+  width: 400px;
+  margin: 20px auto 20px auto;
+}
+.container {
+  width: 400px;
+  margin: 20px auto 20px auto;
+}
+.input-radio {
+  width: auto;
+}
+.input-checkbox {
+  width: auto;
+}
+select {
+  margin: 5px auto 5px auto;
+  width: 15%;
+}
+textarea {
+  width: 20%;
+  height: 100px;   
+}
+
+</style
