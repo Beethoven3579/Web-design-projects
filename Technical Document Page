@@ -1,0 +1,204 @@
+<html>
+<nav id="navbar">
+  <div class="vertical-menu">
+    <header class="learning-html">Learning HTML</header>
+    <a class="nav-link" href="#Introduction">Introduction
+    </a>
+    <a class="nav-link" href="#Why_Learn_To_Code?">Why Learn To Code?
+    </a>
+    <a class="nav-link" href="#HTML_Basics" >HTML Basics
+    </a>
+    <a class="nav-link" href="#Print_Hello_World">Print Hello World
+    </a>
+    <a class="nav-link" href="#Heading_Elements">Heading Elements 
+    </a>
+    <a class="nav-link" href="#Paragraph_Elements">Paragraph Elements
+    </a>
+    <a class="nav-link" href="#Anchor_Elements">Anchor Elements
+    </a>
+    <a class="nav-link" href="#Images">Images
+    </a>
+    <a class="nav-link" href="#Lists">Lists
+    </a>
+    <a class="nav-link" href="#Submit_Button">Submit Button
+    </a>
+    <a class="nav-link" href="#Checkboxes_&_Radio_Buttons">Checkboxes & Radio Buttons
+    </a>
+    </div>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction"> 
+    <header class="section-titles">Introduction</header>
+      <p>  
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis tortor sed nunc dictum, et convallis felis tempor. Quisque velit odio, rhoncus at cursus et, viverra quis massa. Aliquam scelerisque enim ac neque aliquet, et tincidunt elit pulvinar. Donec in tristique augue, vitae consequat orci. Pellentesque diam arcu, dapibus eget mauris id, ornare auctor lacus. Phasellus pharetra magna nec egestas imperdiet. Aliquam eleifend justo vitae augue pulvinar fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin hendrerit cursus diam. Cras vel ex semper, bibendum lectus ac, commodo sapien. Maecenas fermentum id nisl vel ultricies. Mauris facilisis ut quam ut volutpat. Sed porttitor feugiat ante. Integer finibus malesuada volutpat. Suspendisse vestibulum et nisi vel sagittis
+      </p>
+   </section>
+  <section class="main-section" id="Why_Learn_To_Code?"> 
+    <header class="section-titles">Why Learn To Code?</header>
+      <ul>
+        <li>Be Creative</li>
+        <li>Learn a new skill</li>
+        <li>Change Careers</li>
+        <li>It's Fun!</li>
+      </ul>
+   </section>
+  <section class="main-section" id="HTML_Basics"> 
+    <header class="section-titles">HTML Basics</header>
+      <p>  
+        Curabitur non urna nulla. Suspendisse pretium felis ut nibh blandit molestie. Vestibulum in ornare nulla. Pellentesque ac efficitur neque. Etiam et velit turpis. Integer dignissim eros ac nisi lobortis, et pretium purus fringilla. Cras laoreet nulla sit amet turpis rhoncus, vel placerat magna suscipit.
+        <code>
+          Code goes here!
+        </code>
+     Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vestibulum, libero ut finibus molestie, sapien tortor molestie massa, vitae varius ligula ex quis odio. Pellentesque in felis at nisi efficitur sodales. Integer in odio venenatis, laoreet nisl quis, condimentum ipsum. Nulla pellentesque augue eget ultrices blandit. Donec et varius est. Sed iaculis mattis turpis, quis molestie mi blandit et.   
+      </p>
+   </section>
+  <section class="main-section" id="Print_Hello_World"> 
+    <header>Print Hello World</header>
+      <p>  
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna felis, facilisis sed nisl ut, suscipit bibendum tellus. Praesent vestibulum elit massa, id mollis mauris sodales quis. Ut at interdum neque, vitae vestibulum diam. Sed porta vel nulla sed congue. Suspendisse ac tortor ut orci laoreet semper non vitae erat.
+        <code> Hello World</code>
+       Nulla id pretium nibh. Nam mattis velit nec ex sollicitudin maximus mollis sit amet ex. Cras suscipit diam euismod neque convallis faucibus. Fusce nec arcu lacinia, volutpat sapien et, hendrerit ipsum. Nam non malesuada ligula. Suspendisse cursus consequat magna, ut tristique est vulputate sed. Pellentesque est nisi, tincidunt quis cursus sed, eleifend nec eros. Phasellus id faucibus felis. 
+    </p>
+   </section>
+  <section class="main-section" id="Heading_Elements"> 
+    <header class="section-titles">Heading Elements</header>
+      <p>  
+        Nullam ligula nibh, placerat in nibh sed, interdum molestie ante. Integer at dictum lectus. Nulla nisl velit, pellentesque ut commodo ut, rutrum a massa. Morbi vitae ultrices nisl. Phasellus sit amet elit vel felis elementum pulvinar ut tristique dolor. Vivamus id ullamcorper eros. Vestibulum maximus feugiat nibh, sit amet pharetra lectus tincidunt vel. 
+        <ul>
+          <li>ex 1</li>
+          <li>ex 2</li>
+          <li>ex 3</li>
+    </ul>
+        <code> Lorum Ipsum HTML Heading Element h1, h2, h3 etc </code>
+    Aenean neque nunc, vestibulum id mattis a, placerat id tortor. Proin consequat tristique nibh, in finibus nisl faucibus sit amet. Donec pellentesque tempor felis, quis convallis elit bibendum quis. Morbi erat diam, aliquet eu auctor id, pharetra non elit. Etiam a pellentesque enim.
+    </p>
+        <p>  
+        <code> Enter the code here dude.
+               </code>
+    </p>
+   </section>
+  <section class="main-section" id="Paragraph_Elements"> 
+    <header class="section-titles">Paragraph Elements</header>
+      <p>  
+        In libero urna, faucibus vehicula porta quis, ultrices at leo. Sed non odio tempus, elementum massa in, aliquam arcu. Maecenas fringilla, velit ac sagittis commodo, libero libero pulvinar velit, non porta risus mi nec quam. Sed dui turpis, dictum tincidunt nisl sed, vestibulum euismod nisi. Proin aliquam odio massa, non malesuada dui bibendum sit amet. In in massa luctus diam rutrum accumsan vel in nisi. In orci nisi, iaculis facilisis faucibus id, dictum id eros. Curabitur viverra mi vel felis commodo placerat. Proin iaculis ac quam vel ornare.
+        <code> Enter Code </code>
+    </p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis tortor sed nunc dictum, et convallis felis tempor. Quisque velit odio, rhoncus at cursus et, viverra quis massa. Aliquam scelerisque enim ac neque aliquet, et tincidunt elit pulvinar. Donec in tristique augue, vitae consequat orci. Pellentesque diam arcu, dapibus eget mauris id, ornare auctor lacus. Phasellus pharetra magna nec egestas imperdiet. Aliquam eleifend justo vitae augue pulvinar fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin hendrerit cursus diam. Cras vel ex semper, bibendum lectus ac, commodo sapien. Maecenas fermentum id nisl vel ultricies. Mauris facilisis ut quam ut volutpat. Sed porttitor feugiat ante. Integer finibus malesuada volutpat. Suspendisse vestibulum et nisi vel sagittis.
+        <p>  
+        <code> More Code </code>
+    </p>
+    </header>
+   </section>
+  <section class="main-section" id="Anchor_Elements"> 
+    <header class="section-titles">Anchor Elements</header>
+      <p>  
+        Curabitur non urna nulla. Suspendisse pretium felis ut nibh blandit molestie. Vestibulum in ornare nulla. Pellentesque ac efficitur neque. Etiam et velit turpis. Integer dignissim eros ac nisi lobortis, et pretium purus fringilla. Cras laoreet nulla sit amet turpis rhoncus, vel placerat magna suscipit. 
+        <code> anchor elemnt code</code>
+    </p>
+    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vestibulum, libero ut finibus molestie, sapien tortor molestie massa, vitae varius ligula ex quis odio. Pellentesque in felis at nisi efficitur sodales. Integer in odio venenatis, laoreet nisl quis, condimentum ipsum. Nulla pellentesque augue eget ultrices blandit. Donec et varius est. Sed iaculis mattis turpis, quis molestie mi blandit et.
+        <p>  
+        <code> Lorum ipsum Anchor code</code>
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna felis, facilisis sed nisl ut, suscipit bibendum tellus. Praesent vestibulum elit massa, id mollis mauris sodales quis. Ut at interdum neque, vitae vestibulum diam. Sed porta vel nulla sed congue. Suspendisse ac tortor ut orci laoreet semper non vitae erat. Nulla id pretium nibh.   
+    </p>
+   </section>
+  <section class="main-section" id="Images"> 
+    <header class="section-titles">Images</header>
+      <p> 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna felis, facilisis sed nisl ut, suscipit bibendum tellus. Praesent vestibulum elit massa, id mollis mauris sodales quis. Ut at interdum neque, vitae vestibulum diam. Sed porta vel nulla sed congue. Suspendisse ac tortor ut orci laoreet semper non vitae erat. Nulla id pretium nibh.
+        <code> Image code </code>
+        <ul>
+          <li>ex 1</li>
+          <li>ex 2</li>
+    </ul>
+    </p>
+    Nullam ligula nibh, placerat in nibh sed, interdum molestie ante. Integer at dictum lectus. Nulla nisl velit, pellentesque ut commodo ut, rutrum a massa. Morbi vitae ultrices nisl. Phasellus sit amet elit vel felis elementum pulvinar ut tristique dolor. Vivamus id ullamcorper eros. Vestibulum maximus feugiat nibh, sit amet pharetra lectus tincidunt vel. Aenean neque nunc, vestibulum id mattis a, placerat id tortor. Proin consequat tristique nibh, in finibus nisl faucibus sit amet. Donec pellentesque tempor felis, quis convallis elit bibendum quis. Morbi erat diam, aliquet eu auctor id, pharetra non elit. Etiam a pellentesque enim.
+        <p>  
+        <code> More code here</code>
+    </p>
+    <section class="main-section" id="Lists"> 
+    <header class="section-titles">Lists</header>
+      <p>  
+        In libero urna, faucibus vehicula porta quis, ultrices at leo. Sed non odio tempus, elementum massa in, aliquam arcu. Maecenas fringilla, velit ac sagittis commodo, libero libero pulvinar velit, non porta risus mi nec quam. Sed dui turpis, dictum tincidunt nisl sed, vestibulum euismod nisi. Proin aliquam odio massa, non malesuada dui bibendum sit amet. In in massa luctus diam rutrum accumsan vel in nisi. In orci nisi, iaculis facilisis faucibus id, dictum id eros. Curabitur viverra mi vel felis commodo placerat. Proin iaculis ac quam vel ornare.
+        <code> list 1</code>
+      </p>
+        <p>  
+        <code> list 2</code>
+      </p>
+      <section class="main-section" id="Submit_Button"> 
+    <header class="section-titles">Submit Button</header>
+      <p>  
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis tortor sed nunc dictum, et convallis felis tempor. Quisque velit odio, rhoncus at cursus et, viverra quis massa. Aliquam scelerisque enim ac neque aliquet, et tincidunt elit pulvinar. Donec in tristique augue, vitae consequat orci. Pellentesque diam arcu, dapibus eget mauris id, ornare auctor lacus. Phasellus pharetra magna nec egestas imperdiet. Aliquam eleifend justo vitae augue pulvinar fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin hendrerit cursus diam. Cras vel ex semper, bibendum lectus ac, commodo sapien. Maecenas fermentum id nisl vel ultricies. Mauris facilisis ut quam ut volutpat. Sed porttitor feugiat ante. Integer finibus malesuada volutpat. Suspendisse vestibulum et nisi vel sagittis.
+        <code> submit the code</code>
+        Lorem ipsum dolar
+      </p>
+        <section class="main-section" id="Checkboxes_&_Radio_Buttons"> 
+    <header class="section-titles" >Checkboxes & Radio Buttons</header>
+      <p>  
+        Curabitur non urna nulla. Suspendisse pretium felis ut nibh blandit molestie. Vestibulum in ornare nulla. Pellentesque ac efficitur neque. Etiam et velit turpis. Integer dignissim eros ac nisi lobortis, et pretium purus fringilla. Cras laoreet nulla sit amet turpis rhoncus, vel placerat magna suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vestibulum, libero ut finibus molestie, sapien tortor molestie massa, vitae varius ligula ex quis odio. Pellentesque in felis at nisi efficitur sodales. Integer in odio venenatis, laoreet nisl quis, condimentum ipsum. Nulla pellentesque augue eget ultrices blandit. Donec et varius est. Sed iaculis mattis turpis, quis molestie mi blandit et.
+
+
+        <code> Checkbox </code>
+        Cras suscipit diam euismod neque convallis faucibus. Fusce nec arcu lacinia, volutpat sapien et, hendrerit ipsum. Nam non malesuada ligula.
+          </p>
+        <p>  
+         Phasellus id faucibus felis. 
+        <code> Radio Button</code>
+         Nullam ligula nibh, placerat in nibh sed, interdum molestie ante. Integer at dictum lectus. 
+          </p>
+    </header>
+   </section>
+</main> 
+</html>
+
+<style>
+@media (max-height: 500px)
+  p {
+    font-size: 15px;
+}
+
+h1 {
+  font-size: 30px;
+}
+.learning-html {
+  padding: 20px;
+  font-size: 20px;
+  
+}
+#navbar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+#navbar a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  color: black;
+  background-color: #D9DAD8;
+  border-style: solid;
+  border-width: 1px;
+} 
+#navbar a:hover {
+  background-color: #A8A8A8;    
+}
+main {
+  margin-left: 200px;
+}
+#main-doc {
+  position: relative;
+}
+
+.section-titles {
+  font-size: 30px;
+}
+code {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  background: #f7f7f7;
+  margin: 10px;
+}
+</style>
