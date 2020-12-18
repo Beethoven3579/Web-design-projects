@@ -1,0 +1,70 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+<header> 
+<nav id="navbar">
+  <p class="nav-text"><i class="name">Nick Paolino</i> Programming Portfolio</p>
+  <ul>
+    <a id="nav-link" href="#welcome-section"><li>Welcome!</li></a>
+   <a id="nav-link" href="#projects"> <li>Projects</li></a>
+   <a id="nav-link" href="#Bio"> <li>Bio</li></a>
+   <a id="nav-link" href="#Resume"> <li>Resume</li></a>
+   <a id="nav-link" href="#Contact"> <li>Contact</li></a>
+  </ul>
+   </nav>
+   </header> 
+  <main>
+<div id="welcome-section" class="welcome">
+  <div>
+  <h1 class="welcome-title">Welcome!</h1>
+  </div>
+  <p class="why-I-code">  
+   “I've loved the stars too fondly to be fearful of the night.” <br> ~ Galileo
+  </p>
+</div> 
+<section id="projects">
+  <h1 class="project-title"><u>HTML and CSS </u></h1>
+  <div class="project-tile">
+    <a href="https://codepen.io/nick-p-cellist/pen/PoGYLXW" target="_blank"><div class="tribute-link">Tribute Page</div></a>
+    <a href="https://codepen.io/nick-p-cellist/details/XWjJJmy" target="_blank"><div class="submit-form-link">Submit Form</div></a>
+  <a href="https://codepen.io/nick-p-cellist/pen/YzGwYGR" target="_blank"><div class="product-page-link">Product Page</div></a>
+   <a href="https://codepen.io/nick-p-cellist/pen/BaLppYL" target="_blank"><div class="technical-doc-link">Technical Document</div></a>
+    </div>
+</section>
+    <br>
+    <br>
+<section id="Bio">
+  <div>
+    <p class="bio-text"> </p>
+    <a></a>
+    </section>
+  </div>
+</section>
+<section id="Resume">
+  <div>
+    <a></a>
+    </section>
+  </div>
+</section>
+</main>
+<footer>
+  
+ <section id="Contact">
+  <div class="social">
+    <ul>
+     <a id="profile-link" href="https://github.com/Beethoven3579"target="_blank"><li class="icon"><i class="fab fa-github"></i></li></a>
+     <a href="https://codepen.io/nick-p-cellist"target="_blank"><li class="icon"><i class="fab fa-codepen"></i></li></a>
+     <a href="https://twitter.com/"target="_blank"><li class="icon"><i class="fab fa-twitter"></i></li></a>
+     <a href="https://www.instagram.com/nickishpaolino/"target="_blank"><li class="icon"><i class="fab fa-instagram"></i></li></a>
+     <a href="https://www.linkedin.com/"target="_blank"><li class="icon"><i class="fab fa-linkedin"></i></li></a>
+    </ul>
+    <li><a></a></li>
+     </div>
+    </section>
+</footer>
+</body>
+</html>
+<style>
+</style>
