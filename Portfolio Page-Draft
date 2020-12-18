@@ -67,4 +67,176 @@
 </body>
 </html>
 <style>
+body {
+  background: black;
+}
+
+.nav-text {
+  position: absolute;
+  left: 10px;
+  top: 10%;
+  width: 150px;
+  color: #2C2C29;
+  font-size: 20px;
+}
+.name {
+  font-size: 26px;
+}
+nav {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(90deg, #CBF8FF, #516CFF, black );
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+nav ul li {
+  width: 120px;
+  margin: 0px 20px 5px 20px;
+  padding: 20px;
+  background: black;
+  border-radius: 3px;
+  color: white;
+}
+nav ul a {
+  text-decoration: none;
+  color: #fff;   
+  padding: 20px;
+}
+nav ul li:hover {
+  background: white;
+  border-radius: 50%;
+  color: #000
+}
+main {
+ background-image: url(https://www.wpi.edu/sites/default/files/2016/10/25/Bar%20Harbor%20night%20sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#welcome-section {
+  text-align: center;
+  height: 100vh;
+  color: white;
+}
+.welcome-title {
+  padding: 150px 0px 80px 0px;
+  margin-bottom: 0px;
+  font-size: 70px;
+}
+.why-I-code {
+  width: 500px;
+  display: block;
+  
+  margin-left: 10px;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+h1 {
+  padding: 30px;
+}
+.project-title {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.project-tile {
+  display: grid;
+  width: 100px;
+  height: 200px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  1fr 1fr;
+  margin: auto;
+  grid-gap: 20px;
+  width: 50%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.project-tile a {
+  text-decoration: none;
+  color: white;
+}
+.tribute-link {
+  background: black;
+  border-radius: 3px;
+  text-align: center; 
+  padding: 35px;
+  font-size: 25px; 
+}
+.tribute-link:hover {
+  background: white;
+  color: black;
+}
+.submit-form-link {
+  background: black;
+  border-radius: 3px;
+  text-align: center;
+  padding: 35px;
+  font-size: 25px;
+}
+.submit-form-link:hover {
+ background: white;
+ color: black;
+}
+.product-page-link {
+  background: black;
+  border-radius: 3px;
+  text-align: center;
+  padding: 35px;
+  font-size: 25px;
+}
+.product-page-link:hover {
+  background: white;
+  color: black;
+}
+.technical-doc-link {
+  background: black;
+  border-radius: 3px;
+  text-align: center;
+  padding: 35px;
+  font-size: 25px;
+}
+.technical-doc-link:hover {
+  background: white;
+  color: black;
+}
+
+footer {
+  background: black;
+}
+.fab {
+  color: white;
+}
+.icon {
+  list-style: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transition: .5s
+}
+.icon:hover {
+  color: #292929;
+  border: 1px solid #292929;
+  transition: .5s;   
+}
+.social {
+  position: absolute;
+  margin-left: 25%;
+}
+@media (max-width: 500px) {
+  #welcome-section {
+  height: 50vh; 
+}
+  
+
 </style>
