@@ -1,6 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  
 </head>
 <body>
 <header> 
@@ -9,7 +10,7 @@
   <ul>
     <a id="nav-link" href="#welcome-section"><li>Welcome!</li></a>
    <a id="nav-link" href="#projects"> <li>Projects</li></a>
-   <a id="nav-link" href="#Bio"> <li>Bio</li></a>
+   <a id="nav-link" href="#Social"> <li>Social</li></a>
    <a id="nav-link" href="#Resume"> <li>Resume</li></a>
    <a id="nav-link" href="#Contact"> <li>Contact</li></a>
   </ul>
@@ -20,7 +21,7 @@
   <div>
   <h1 class="welcome-title">Welcome!</h1>
   </div>
-  <p class="why-I-code">  
+  <p class="quote">  
    “I've loved the stars too fondly to be fearful of the night.” <br> ~ Galileo
   </p>
 </div> 
@@ -35,7 +36,7 @@
 </section>
     <br>
     <br>
-<section id="Bio">
+<section id="Social">
   <div>
     <p class="bio-text"> </p>
     <a></a>
@@ -52,6 +53,13 @@
 <footer>
   
  <section id="Contact">
+   <div>
+     <p class="contact-info">Phone: 704-213-3090
+       <br>
+       <br>
+        Email: nick_paolino@yahoo.com
+     </p>
+   </div>
   <div class="social">
     <ul>
      <a id="profile-link" href="https://github.com/Beethoven3579"target="_blank"><li class="icon"><i class="fab fa-github"></i></li></a>
@@ -76,7 +84,7 @@ body {
   left: 10px;
   top: 10%;
   width: 150px;
-  color: #2C2C29;
+  color: black;
   font-size: 20px;
 }
 .name {
@@ -108,12 +116,14 @@ nav ul a {
   padding: 20px;
 }
 nav ul li:hover {
-  background: white;
-  border-radius: 50%;
-  color: #000
+  background: #DCDCDC;
+  border-radius: 3px;
+  color: #000;
+  transition: .5s;
+    
 }
 main {
- background-image: url(https://www.wpi.edu/sites/default/files/2016/10/25/Bar%20Harbor%20night%20sky.jpg);
+ background-image: url(https://www.wpi.edu/sites/default/files/2016/10/25/Bar%20Harbor%20night%20sky.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -127,7 +137,7 @@ main {
   margin-bottom: 0px;
   font-size: 70px;
 }
-.why-I-code {
+.quote {
   width: 500px;
   display: block;
   
@@ -211,6 +221,15 @@ h1 {
 footer {
   background: black;
 }
+.contact-info {
+  position: absolute;
+  left: 10px;
+  width: 270px;
+  color: white;
+  font-size: 17px;
+  padding: 20px 20px;
+  font-family: copperplate;
+}
 .fab {
   color: white;
 }
@@ -238,5 +257,6 @@ footer {
   height: 50vh; 
 }
   
+
 
 </style>
