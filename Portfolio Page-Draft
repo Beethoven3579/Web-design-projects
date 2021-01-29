@@ -1,0 +1,260 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  
+</head>
+<body>
+<header> 
+<nav id="navbar">
+  <p class="nav-text"><i class="name">Nick Paolino</i> Programming Portfolio</p>
+  <ul>
+    <a id="nav-link" href="#welcome-section"><li>Welcome!</li></a>
+   <a id="nav-link" href="#projects"> <li>Projects</li></a>
+   <a id="nav-link" href="#Social"> <li>Social</li></a>
+   <a id="nav-link" href="#Resume"> <li>Resume</li></a>
+   <a id="nav-link" href="#Contact"> <li>Contact</li></a>
+  </ul>
+   </nav>
+   </header> 
+  <main>
+<div id="welcome-section" class="welcome">
+  <div>
+  <h1 class="welcome-title">Welcome!</h1>
+  </div>
+  <p class="quote">  
+   “I've loved the stars too fondly to be fearful of the night.” <br> ~ Galileo
+  </p>
+</div> 
+<section id="projects">
+  <h1 class="project-title"><u>HTML and CSS </u></h1>
+  <div class="project-tile">
+    <a href="https://codepen.io/nick-p-cellist/pen/PoGYLXW" target="_blank"><div class="tribute-link">Tribute Page</div></a>
+    <a href="https://codepen.io/nick-p-cellist/details/XWjJJmy" target="_blank"><div class="submit-form-link">Submit Form</div></a>
+  <a href="https://codepen.io/nick-p-cellist/pen/YzGwYGR" target="_blank"><div class="product-page-link">Product Page</div></a>
+   <a href="https://codepen.io/nick-p-cellist/pen/BaLppYL" target="_blank"><div class="technical-doc-link">Technical Document</div></a>
+    </div>
+</section>
+    <br>
+    <br>
+<section id="Social">
+  <div>
+    <p class="bio-text"> </p>
+    <a></a>
+    </section>
+  </div>
+</section>
+<section id="Resume">
+  <div>
+    <a></a>
+    </section>
+  </div>
+</section>
+</main>
+<footer>
+  
+ <section id="Contact">
+   <div>
+     <p class="contact-info">Phone: 704-213-3090
+       <br>
+       <br>
+        Email: nick_paolino@yahoo.com
+     </p>
+   </div>
+  <div class="social">
+    <ul>
+     <a id="profile-link" href="https://github.com/Beethoven3579"target="_blank"><li class="icon"><i class="fab fa-github"></i></li></a>
+     <a href="https://codepen.io/nick-p-cellist"target="_blank"><li class="icon"><i class="fab fa-codepen"></i></li></a>
+     <a href="https://twitter.com/"target="_blank"><li class="icon"><i class="fab fa-twitter"></i></li></a>
+     <a href="https://www.instagram.com/nickishpaolino/"target="_blank"><li class="icon"><i class="fab fa-instagram"></i></li></a>
+     <a href="https://www.linkedin.com/"target="_blank"><li class="icon"><i class="fab fa-linkedin"></i></li></a>
+    </ul>
+    <li><a></a></li>
+     </div>
+    </section>
+</footer>
+</body>
+</html>
+<style>
+body {
+  background: black;
+}
+
+.nav-text {
+  position: absolute;
+  left: 10px;
+  top: 10%;
+  width: 150px;
+  color: black;
+  font-size: 20px;
+}
+.name {
+  font-size: 26px;
+}
+nav {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(90deg, #CBF8FF, #516CFF, black );
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+nav ul li {
+  width: 120px;
+  margin: 0px 20px 5px 20px;
+  padding: 20px;
+  background: black;
+  border-radius: 3px;
+  color: white;
+}
+nav ul a {
+  text-decoration: none;
+  color: #fff;   
+  padding: 20px;
+}
+nav ul li:hover {
+  background: #DCDCDC;
+  border-radius: 3px;
+  color: #000;
+  transition: .5s;
+    
+}
+main {
+ background-image: url(https://www.wpi.edu/sites/default/files/2016/10/25/Bar%20Harbor%20night%20sky.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#welcome-section {
+  text-align: center;
+  height: 100vh;
+  color: white;
+}
+.welcome-title {
+  padding: 150px 0px 80px 0px;
+  margin-bottom: 0px;
+  font-size: 70px;
+}
+.quote {
+  width: 500px;
+  display: block;
+  
+  margin-left: 10px;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+h1 {
+  padding: 30px;
+}
+.project-title {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.project-tile {
+  display: grid;
+  width: 100px;
+  height: 200px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  1fr 1fr;
+  margin: auto;
+  grid-gap: 20px;
+  width: 50%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.project-tile a {
+  text-decoration: none;
+  color: white;
+}
+.tribute-link {
+  background: black;
+  border-radius: 3px;
+  text-align: center; 
+  padding: 35px;
+  font-size: 25px; 
+}
+.tribute-link:hover {
+  background: white;
+  color: black;
+}
+.submit-form-link {
+  background: black;
+  border-radius: 3px;
+  text-align: center;
+  padding: 35px;
+  font-size: 25px;
+}
+.submit-form-link:hover {
+ background: white;
+ color: black;
+}
+.product-page-link {
+  background: black;
+  border-radius: 3px;
+  text-align: center;
+  padding: 35px;
+  font-size: 25px;
+}
+.product-page-link:hover {
+  background: white;
+  color: black;
+}
+.technical-doc-link {
+  background: black;
+  border-radius: 3px;
+  text-align: center;
+  padding: 35px;
+  font-size: 25px;
+}
+.technical-doc-link:hover {
+  background: white;
+  color: black;
+}
+
+footer {
+  background: black;
+}
+.contact-info {
+  position: absolute;
+  left: 10px;
+  width: 270px;
+  color: white;
+  font-size: 17px;
+  padding: 20px 20px;
+  font-family: copperplate;
+}
+.fab {
+  color: white;
+}
+.icon {
+  list-style: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transition: .5s
+}
+.icon:hover {
+  color: #292929;
+  border: 1px solid #292929;
+  transition: .5s;   
+}
+.social {
+  position: absolute;
+  margin-left: 25%;
+}
+@media (max-width: 500px) {
+  #welcome-section {
+  height: 50vh; 
+}
+  
+</style>
